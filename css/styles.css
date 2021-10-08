@@ -490,6 +490,7 @@ button {
 
 .team-a-border:hover,
 .team-a-border:focus {
+  outline: none;
   background-color: var(--active-1-color);
 }
 
@@ -577,9 +578,12 @@ button {
 }
 
 .button-portfolio {
-  margin-left: 8px;
+  margin-right: 8px;
 }
 
+.button-portfolio:last-child {
+  margin-right: 0px;
+}
 
 .button2:hover,
 .button2:focus {
@@ -692,7 +696,7 @@ footer {
   background: var(--background-color);
   left: 0px;
   right: 0px;
-  height: 250px;
+  height: 252px;
 }
 
 .footer-elements-pos {
@@ -816,6 +820,7 @@ footer {
 
 .footer-social-border:hover,
 .footer-social-border:focus {
+  outline: none;
   background-color: var(--active-1-color);
 }
 

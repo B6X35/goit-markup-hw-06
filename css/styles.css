@@ -843,7 +843,7 @@ footer {
 }
 
 .footer-btn-span {
-  font-family: 700;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   color: var(--white-text-color);
